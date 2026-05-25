@@ -24,11 +24,11 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host:     ${{ secrets.EC2_HOST }}       # EC2 public IP or domain
-          username: ubuntu                         # default Ubuntu user
+          username: ec2-user                       # Amazon Linux 2023 default user
           key:      ${{ secrets.EC2_SSH_KEY }}     # contents of your .pem file
           port:     22
           script: |
-            cd ~/cb_api_server_tool
+            cd ~/cb_api_sever_tool
             ./scripts/deploy.sh
 
       - name: Notify on failure

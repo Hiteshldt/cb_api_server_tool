@@ -11,5 +11,31 @@
     "enabled": true,
     "createdAt": "2026-05-24T14:11:00.651Z",
     "updatedAt": "2026-05-24T14:11:00.651Z"
+  },
+  {
+    "id": "endpoint_7300cdf8",
+    "name": "iocl_edited_output2",
+    "path": "/output/iocl_edited_output2",
+    "method": "GET",
+    "sourceId": "source_f938a388",
+    "transformationId": "transform_1ff01e32",
+    "authRequired": false,
+    "apiKey": "",
+    "enabled": true,
+    "createdAt": "2026-05-25T03:59:15.742Z",
+    "updatedAt": "2026-05-25T03:59:15.742Z"
+  },
+  {
+    "id": "endpoint_4bd6aa13",
+    "name": "iocl_edited_output3",
+    "path": "/output/iocl_edited_output3",
+    "method": "GET",
+    "sourceId": "source_f938a388",
+    "transformationId": "transform_a214bad8",
+    "authRequired": false,
+    "apiKey": "",
+    "enabled": true,
+    "createdAt": "2026-05-25T07:02:51.657Z",
+    "updatedAt": "2026-05-25T07:02:51.657Z"
   }
 ]
